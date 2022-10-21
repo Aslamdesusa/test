@@ -31,7 +31,7 @@ If the installation was successful, you should be able to run the following comm
     $ npm --version
     6.1.0
 
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line.
 
     $ npm install npm -g
 
@@ -59,11 +59,11 @@ Open `/backend-mmp/[environment].config.json` then edit it with your settings. Y
     $ staging
     $ production
 
-## Running the project with nodemon
+## Run the project with nodemon
 Nodemon is used for the development of applications based on node. js. It simply restarts the node application whenever it observes the changes in the file present in the working directory of your project.
 
     $ npm run start:nodemon:dev
 
-## Running the project without nodemon
+## Run the project without nodemon
     
     $ npm run start:node:dev
