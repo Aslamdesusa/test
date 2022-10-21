@@ -52,8 +52,11 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 - One more setting;
 
 ## Running the project
-    $ npm run start:nodemon:dev // Nodemon is used for the development of applications based on node. js. It simply restarts the node application whenever it observes the changes in the file present in the working directory of your project.
-    $ npm run start:node:dev // Without nodemond
+Nodemon is used for the development of applications based on node. js. It simply restarts the node application whenever it observes the changes in the file present in the working directory of your project.
+
+    $ npm run start:nodemon:dev
+    
+    $ npm run start:node:dev
 
 ## Simple build for production
 
