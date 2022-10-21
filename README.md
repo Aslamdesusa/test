@@ -37,6 +37,12 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ---
 
+## Database
+
+    $ MongoDB ( To setup mongodb download database rs1 folder from drive If you don't have access, ask DevOps Engineer to provide access )
+    $ Redis (Optional)
+    $ Memcached
+
 ## Install
 
     $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
@@ -45,11 +51,13 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Configure app
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+Open `/backend-mmp/[environment].config.json` then edit it with your settings. You will need:
 
-- A setting;
-- Another setting;
-- One more setting;
+## Environment
+    
+    $ development
+    $ staging
+    $ production
 
 ## Running the project with nodemon
 Nodemon is used for the development of applications based on node. js. It simply restarts the node application whenever it observes the changes in the file present in the working directory of your project.
@@ -59,7 +67,3 @@ Nodemon is used for the development of applications based on node. js. It simply
 ## Running the project without nodemon
     
     $ npm run start:node:dev
-
-## Simple build for production
-
-    $ yarn build
