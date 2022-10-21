@@ -18,8 +18,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
   You can install nodejs and npm easily with brew install, just run the following commands.
 
       $ brew install nodejs
-  
-  NPM is included with Node. js installation. After you install Node. js, verify NPM installation by writing the following command in terminal or command prompt.
+      $ brew install npm
 
 - #### Other Operating Systems
   You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
@@ -27,10 +26,10 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 If the installation was successful, you should be able to run the following command.
 
     $ node --version
-    v8.11.3
+    v16.14.2
 
     $ npm --version
-    6.1.0
+    8.5.0
 
 If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line.
 
